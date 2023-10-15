@@ -56,7 +56,7 @@ function checkWin(){
         }
     })
 }
-Turn.innerHTML+="Turn for"
+
 let boxes = document.getElementsByClassName("box");
 
 Array.from(boxes).forEach((item) => {
