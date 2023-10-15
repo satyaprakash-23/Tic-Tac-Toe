@@ -77,6 +77,13 @@ reset.addEventListener('click',()=>{
     boxtext = document.getElementsByClassName('box')
     Array.from(boxtext).forEach((item)=>{
         item.innerHTML=""
+        Turn.innerHTML="Turn for"
+        currentTurn="0"
+        
+        
+        
+        currentbaari()
+        baari.innerHTML=changeTurn()       
     
         
         document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px"
